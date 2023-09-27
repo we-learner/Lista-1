@@ -19,11 +19,12 @@ int main()
 
     while(senha_inserida != senha_correta)
     {
-        printf("Senha incorreta. Tente novamente: ");
+        printf("Senha invalida.\n");
+        printf("Digite a senha: ");
         scanf("%d", &senha_inserida);
     }
 
-    printf("Senha correta! Acesso permitido.\n");
+    printf("Senha valida.\n");
 
     return 0;
 }
